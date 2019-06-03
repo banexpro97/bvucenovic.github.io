@@ -400,7 +400,7 @@ footer {
 	.down:active{
 		width:16.5%;
 	}
-	@media only screen and (min-width:1000){
+	@media only screen and (min-width:1000px){
 		.text-box-content h3{
 			font-size: 2em;
 		}

@@ -402,10 +402,10 @@ footer {
 	}
 	@media only screen and (min-width:1000){
 		.text-box-content h3{
-			font-size: 1.5em;
+			font-size: 2em;
 		}
 		.text-box-content p{
-			font-size:1.5em;
+			font-size:2em;
 		}
 	}
 }

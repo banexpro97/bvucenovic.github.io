@@ -168,7 +168,15 @@ header {
   color: #E1CCC9;
   border-bottom: 2px solid;
 }
-
+.komp{
+	width:25%;
+	float: left;
+	margin-right: 2%;
+	transition:0.5s ease-in-out;
+}
+.komp:hover{
+	opacity:0.8;
+}
 .work {
   height: 300px;
   padding: 2% 0;

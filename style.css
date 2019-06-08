@@ -421,4 +421,8 @@ footer {
 	.down:active{
 		width:16.5%;
 	}
+	.credit{
+		margin-bottom: 0%;
+		font-size: 0.7em;
+	}
 }

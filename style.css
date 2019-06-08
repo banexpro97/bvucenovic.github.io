@@ -425,7 +425,6 @@ footer {
 		font-size: 0.7em;
 	}
 	footer{
-		margin-bottom: 1px;
-		padding-bottom: 1px;
+		margin-bottom: -10%;
 	}
 }

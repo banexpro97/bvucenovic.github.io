@@ -420,9 +420,9 @@ footer {
 		width:16.5%;
 	}
 	.text-box{
-		font-size: 2em;
+		font-size: 1.5em;
 	}
-	.social img{
-		width: 10%;
+	.text-box p{
+		font-size: 2em;
 	}
 }

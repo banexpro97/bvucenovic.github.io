@@ -419,4 +419,10 @@ footer {
 	.down:active{
 		width:16.5%;
 	}
+	.text-box{
+		font-size: 2em;
+	}
+	.social img{
+		width: 10%;
+	}
 }

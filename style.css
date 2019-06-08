@@ -280,6 +280,7 @@ footer {
 }
 .credit {
   float: left;
+	background-color: #c2b9b0;
 }
 .credit a{
   text-decoration: none;
@@ -421,5 +422,8 @@ footer {
 	}
 	.text-box{
 		font-size: 1.5em;
+	}
+	.social img{
+		width:15%;
 	}
 }

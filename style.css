@@ -422,9 +422,7 @@ footer {
 		width:16.5%;
 	}
 	.credit{
+		margin-top: 50px;
 		font-size: 0.7em;
-	}
-	footer{
-		margin-bottom: -10%;
 	}
 }

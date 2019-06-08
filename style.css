@@ -423,6 +423,9 @@ footer {
 	}
 	.credit{
 		font-size: 0.7em;
-		padding-bottom: : 0px;
+	}
+	footer{
+		margin-bottom: 1px;
+		padding-bottom: 1px;
 	}
 }

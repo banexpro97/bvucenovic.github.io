@@ -175,7 +175,7 @@ header {
 	transition:0.5s ease-in-out;
 }
 .komp:hover{
-	opacity:0.8;
+	transform: rotateZ(180deg);
 }
 .work {
   height: 300px;

@@ -291,6 +291,7 @@ footer {
 }
 .social {
   float: right;
+	background-color: #c2b9b0;
 }
 .social img{
   width:5%;

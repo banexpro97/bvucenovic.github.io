@@ -301,7 +301,7 @@ footer {
   transition: 0.5s ease-in-out;
 }
 .social img:active{
-	transform:rotateZ(360deg);
+	transform:rotateZ(180deg);
 }
 .social img:hover{
   opacity:0.85;

@@ -86,7 +86,10 @@ header {
   background-position: center top;
 	background-attachment: fixed;
   width: 100%;
+	overflow:hidden;
 }
+/*old fly-in type animations in the comment bellow:*/
+/*
 @keyframes slideInFromtop {
   0% {
     transform: translateY(-150%);
@@ -97,6 +100,7 @@ header {
 }
 #no1down{
 	animation: 1s ease-in-out 0s 1 slideInFromtop;
+
 }
 @keyframes slideInFromleft {
   0% {
@@ -109,12 +113,14 @@ header {
 .komp{
 	animation: 1s ease-in-out 0s 1 slideInFromleft;
 }
+*/
 .down{
   margin: 10px auto;
   width:5%;
   text-align: center;
   opacity: 0.5;
   transition: .5s ease-in-out;
+	overflow:hidden;
 }
 .downb{
   display: inline-block;
@@ -127,6 +133,7 @@ header {
 }
 #up{
 	margin-bottom: -3%;
+	overflow:hidden;
 }
 #up:active{
 	margin-bottom: -4%;
@@ -274,6 +281,7 @@ footer {
   width: 100%;
   clear: both;
   height: 100px;
+	overflow:hidden;
 }
 .footer-content {
   /*max-width: 960px;*/

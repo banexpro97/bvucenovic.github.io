@@ -6,17 +6,24 @@
     <link rel="shortcut icon" href="icon.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
      <link rel="stylesheet" href="./style.css">
+     <!--animate.css and wow.js libraries for fly-in/appear/dissapear... animations and triggering them when elements are visible in viewport-->
+       <link rel="stylesheet" href="./animate.css">
+       <script src="http://mynameismatthieu.com/WOW/dist/wow.min.js"></script>
+       <script>
+          new WOW().init();
+       </script>
+     <!---->
   </head>
   <body>
     <header>
     	<div class="intro">
-    		<h1>Branislav Vučenović</h1>
-    		<h2>web designer &amp; front-end developer</h2>
+    		<h1 class="wow bounceInLeft animated">Branislav Vučenović</h1>
+    		<h2 class="wow bounceInRight animated">web designer &amp; front-end developer</h2>
     	</div>
     </header>
 
     <div class="down" id="no1down">
-      <div class="downb">
+      <div class="downb wow bounceInDown animated">
           <a href="#me"><img src="dole.png"></a>
       </div>
     </div>
@@ -24,22 +31,22 @@
     <div class="wrapper">
     	<section class="about" id="me">
     		<div class="about-content">
-    			<h3>Hi, I'm Branislav</h3>
+    			<h3 class="wow bounceInLeft animated">Hi, I'm Branislav</h3>
 
-    			<p><img src="komp.png" class="komp">I am a final year student of Business informatics at VSSSVPI-Sirmium, I am a front-end developer, web designer and also the co-owner of <a href="https://www.badzodev.com/" target="_blank">Badžo Web Development</a>. My profesional skills include: Javascript ES6, jQuery, ReactJS, Bootstrap, SASS, Adobe Photoshop, Adobe Ilustrator, Adobe InDesign.</p>
+    			<p><img src="komp.png" class="komp wow bounceInLeft animated"><p class="wow bounceInRight animated">I am a final year student of Business informatics at VSSSVPI-Sirmium, I am a front-end developer, web designer and also the co-owner of <a href="https://www.badzodev.com/" target="_blank">Badžo Web Development</a>. My profesional skills include: Javascript ES6, jQuery, ReactJS, Bootstrap, SASS, Adobe Photoshop, Adobe Ilustrator, Adobe InDesign.</p></p>
         </div>
     	</section>
     </div>
 
     <div class="down">
-      <div class="downb">
+      <div class="downb wow bounceInDown animated">
           <a href="#work"><img src="dole.png"></a>
       </div>
     </div>
 
   <div class="wrapper" id="work">
-    <h3>my work</h3>
-    <section class="work">
+    <h3 class="wow bounceInLeft animated">my work</h3>
+    <section class="work wow bounceInRight animated">
     	<div class="image-area left"><a href="https://www.badzodev.com/" target="_blank"><img src="badzo3.jpg" alt="first"></a></div>
     	<div class="text-box">
     		<div class="text-box-content">
@@ -48,7 +55,7 @@
     		</div>
     	</div>
     </section>
-    <section class="work">
+    <section class="work wow bounceInLeft animated">
     <div class="image-area right"><a href="#" target="_blank"><img src="https://via.placeholder.com/400" alt="second"></a></div>
     <div class="text-box">
     	<div class="text-box-content">
@@ -57,7 +64,7 @@
     	</div>
     </div>
     </section>
-    <section class="work">
+    <section class="work wow bounceInRight animated">
     <div class="image-area left"><a href="" target="_blank"><img src="https://via.placeholder.com/400" alt="third"></a></div>
     <div class="text-box">
     	<div class="text-box-content">
@@ -66,7 +73,7 @@
     	</div>
     </div>
     </section>
-    <section class="work">
+    <section class="work wow bounceInLeft animated">
     <div class="image-area right"><a href="" target="_blank"><img src="https://via.placeholder.com/400g" alt="fourth"></a></div>
     <div class="text-box">
     	<div class="text-box-content">
@@ -78,7 +85,7 @@
   </div>
 
   <div class="down" id="up">
-    <div class="downb">
+    <div class="downb wow bounceInUp animate">
         <a href="#"><img src="gore.png"></a>
     </div>
   </div>
@@ -86,14 +93,14 @@
 
     <section class="contact">
     	<div class="contact-content">
-    		<h4>Have a project in mind? Email me:<a class="email" href="mailto:badzo997@gmail.com">badzo997@gmail.com</a></h4>
+    		<h4 class="wow bounceInLeft animate">Have a project in mind? Email me:<a class="email" href="mailto:badzo997@gmail.com">badzo997@gmail.com</a></h4>
     	</div>
     </section>
   </div>
 
     <footer>
     	<div class="footer-content">
-    		<ul class="social">
+    		<ul class="social wow bounceInRight animate">
     			<li>
     				<a href="#" target="_blank"><img src="tviter.png"></a>
     			</li>
@@ -108,7 +115,7 @@
     	</div>
       <div>
         <br>
-        <p class="credit">&copy; Copyright 2019 <a href="https://www.badzodev.com/" target="_blank">Branislav Vucenovic</a></p>
+        <p class="credit wow bounceInLeft animate">&copy; Copyright 2019 <a href="https://www.badzodev.com/" target="_blank">Branislav Vucenovic</a></p>
       </div>
     </footer>
   </body>

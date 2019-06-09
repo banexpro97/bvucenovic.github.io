@@ -142,6 +142,7 @@ header {
   max-width: 960px;
   margin: 0 auto;
   padding: 8% 0;
+	overflow:hidden;
 }
 .intro h1 {
   font-size: 6em;
@@ -167,6 +168,7 @@ header {
   -webkit-animation-delay: 4s;
   /* Chrome, Safari, Opera */
   animation-delay: 2s;
+	overflow:hidden;
 }
 .about {
   padding: 4% 0;

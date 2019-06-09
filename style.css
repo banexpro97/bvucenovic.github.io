@@ -166,6 +166,7 @@ header {
   -webkit-animation-delay: 4s;
   /* Chrome, Safari, Opera */
   animation-delay: 2s;
+	overflow: hidden;
 }
 .about {
   padding: 4% 0;
@@ -443,17 +444,6 @@ footer {
 		margin-top: 9%;
 		font-size: 0.7em;
 	}
-	.intro{
-		overflow:hidden;
-	}
-	.wrapper{
-		overflow:hidden;
-	}
-	header{
-		overflow:hidden;
-	}
-}
-@media (orientation:landscape){
 	.intro{
 		overflow:hidden;
 	}

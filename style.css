@@ -453,7 +453,7 @@ footer {
 		overflow:hidden;
 	}
 }
-@media screen and(orientation:landscape){
+@media (orientation:landscape){
 	.intro{
 		overflow:hidden;
 	}

@@ -86,6 +86,7 @@ header {
   background-position: center top;
 	background-attachment: fixed;
   width: 100%;
+	overflow: hidden;
 }
 /*old fly-in type animations in the comment bellow:*/
 /*

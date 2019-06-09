@@ -120,6 +120,10 @@ header {
   text-align: center;
   opacity: 0.5;
   transition: .5s ease-in-out;
+	overflow: hidden;
+}
+#no1down{
+	overflow: visible;
 }
 .downb{
   display: inline-block;

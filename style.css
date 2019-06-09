@@ -453,3 +453,14 @@ footer {
 		overflow:hidden;
 	}
 }
+@media screen and(orientation:landscape){
+	.intro{
+		overflow:hidden;
+	}
+	.wrapper{
+		overflow:hidden;
+	}
+	header{
+		overflow:hidden;
+	}
+}

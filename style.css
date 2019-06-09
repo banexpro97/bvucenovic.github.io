@@ -98,6 +98,17 @@ header {
 #no1down{
 	animation: 1s ease-in-out 0s 1 slideInFromtop;
 }
+@keyframes slideInFromleft {
+  0% {
+    transform: translateX(-550%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+.komp{
+	animation: 1s ease-in-out 0s 1 slideInFromleft;
+}
 .down{
   margin: 10px auto;
   width:5%;

@@ -270,6 +270,13 @@ header {
   font-weight: 600;
   letter-spacing: 0.04em;
 }
+.contact-content h5{
+	font-size: 1.6em;
+	padding: 1% 0;
+	color: #fff;
+	font-weight: 600;
+	letter-spacing: 0.04em;
+}
 .contact-content a {
   color: #fff; /*#c2b9b0;*/ /*#E0CCC8;*/
   text-decoration: none;

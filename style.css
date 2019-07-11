@@ -248,6 +248,9 @@ header {
 .right {
   float: right;
 }
+.sml_txt_scr{
+	display: none;
+}
 .contact {
   width: 100%;
   background-color:#c2b9b0 /*#011833*/;
@@ -356,6 +359,12 @@ footer {
     width: 50%;
     height: 300px;
   }
+	.sml_txt_scr{
+		display: block;
+	}
+	.big_scr_txt{
+		display:none;
+	}
   .social li a {
     font-size: 1.4em;
   }

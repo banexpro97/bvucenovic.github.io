@@ -100,7 +100,6 @@ header {
 }
 #no1down{
 	animation: 1s ease-in-out 0s 1 slideInFromtop;
-
 }
 @keyframes slideInFromleft {
   0% {
@@ -209,9 +208,9 @@ header {
 .text-box {
   float: left;
   text-align: left;
-  width: 480px;
+  width: 50%;
   background-color: #fff;
-  height: 100%;
+  height: 300px;
 }
 .text-box-content {
   padding: 4% 8%;
@@ -239,7 +238,7 @@ header {
   background-color: #c2b9b0; /*#e0ccc8;*/
 }
 .image-area {
-  width: 480px;
+  width: 50%;
   height: 300px;
   overflow: hidden;
 }
@@ -350,13 +349,12 @@ footer {
     padding: 4% 0;
   }
   .image-area {
-    float: left;
-    width: 100%;
-    height: auto;
+    width: 50%;
+    height: 300px;
   }
   .text-box {
-    width: 100%;
-    height: auto;
+    width: 50%;
+    height: 300px;
   }
   .social li a {
     font-size: 1.4em;
@@ -388,6 +386,9 @@ footer {
     font-size: 1em;
     line-height: 2;
   }
+	.work {
+		margin-bottom: 50px;
+	}
   footer {
     height: 130px;
     line-height: 1.3em;

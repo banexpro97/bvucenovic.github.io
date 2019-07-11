@@ -88,7 +88,7 @@ header {
   width: 100%;
 	overflow: hidden;
 }
-/*old fly-in type animations in the comment bellow:*/
+/*old fly-in type animations, now replaced with animate.css & wow.js: */
 /*
 @keyframes slideInFromtop {
   0% {

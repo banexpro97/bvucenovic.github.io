@@ -354,7 +354,7 @@ footer {
   }
   .text-box {
     width: 50%;
-    height: 320px;
+    height: 300px;
   }
   .social li a {
     font-size: 1.4em;
@@ -387,8 +387,8 @@ footer {
     line-height: 2;
   }
 	.work {
-		margin-bottom: 25px;
-		margin-top: 25px;
+		margin-bottom: 50px;
+		margin-top: 50px;
 	}
   footer {
     height: 130px;

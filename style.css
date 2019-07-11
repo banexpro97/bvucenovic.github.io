@@ -396,8 +396,11 @@ footer {
     line-height: 2;
   }
 	.work {
-		margin-bottom: 100px;
-		margin-top: 100px;
+		margin-bottom: 50px;
+		margin-top: 50px;
+	}
+	.text-box-content h3 {
+		font-size: 1.5em;
 	}
   footer {
     height: 130px;
